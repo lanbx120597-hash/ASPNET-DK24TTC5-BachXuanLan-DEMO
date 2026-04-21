@@ -34,22 +34,22 @@ Hệ thống hướng đến trải nghiệm thân thiện, dễ sử dụng và
 * Thống kê doanh thu
 
 5. Hướng dẫn cài đặt và chạy chương trình
- cài đặt & chạy
 
-1. Clone project
+
+5.1. Clone project
 git clone https://github.com/lanbx120597/lanbx120597-hash.git
 
-2. Mở project
+5.2 Mở project
 - Mở bằng Visual Studio
   
-3. Cấu hình database
+5.3 Cấu hình database
 - Import file .sql trong thư mục database
 - Cập nhật connection string trong web.config
 
-4. Chạy hệ thống
+5.4 Chạy hệ thống
 - Nhấn Run (F5)
 
-5. Cấu trúc thư mục
+5.5 Cấu trúc thư mục
 
 ├── src/                # Source code chính
 ├── database/           # File SQL
