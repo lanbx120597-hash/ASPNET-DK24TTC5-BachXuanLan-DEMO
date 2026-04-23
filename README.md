@@ -44,7 +44,7 @@ git clone https://github.com/lanbx120597/lanbx120597-hash.git
   
 5.3 Cấu hình database
 - Import file .sql trong thư mục database
-- Cập nhật connection string trong web.config
+- Cập nhật connection string trong web.config (đổi tên theo server name để chạy thành công)
 
 5.4 Chạy hệ thống
 - Nhấn Run (F5)
