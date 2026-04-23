@@ -52,7 +52,6 @@ git clone https://github.com/lanbx120597/lanbx120597-hash.git
 5.5 Cấu trúc thư mục
 
 ├── src/                # Source code chính
-├── database/           # File SQL
 ├── progress-report/    # Báo cáo tiến độ hàng tuần
 ├── thesis/             # Tài liệu đồ án
 │   ├── doc/
