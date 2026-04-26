@@ -1,34 +1,28 @@
-# Hướng dẫn cài đặt và chạy chương trình
- Bước 1: Chuẩn bị môi trường
-- Cài đặt Visual Studio 2022
-- Cài đặt .NET 6 hoặc .NET 7
-- Cài đặt SQL Server
-- Cài đặt SQL Server Management Studio (SSMS)
- 
-Bước 2: Tải source code
-- Clone từ GitHub:
-```bash
-git clone <link-repo>
+# 1. Giai đoạn 1: Phân tích & thiết kế (08/03 – 18/03)
+Xác định đề tài website
+Phân tích yêu cầu chức năng (user, admin)
+Thiết kế cơ sở dữ liệu (SQL Server)
+Vẽ sơ đồ (ERD, class)
+Thiết kế giao diện (mockup)
 
-Bước 3: Cấu hình cơ sở dữ liệu
-Mở file appsettings.json
-Chỉnh chuỗi kết nối
+# 2. Giai đoạn 2: Xây dựng backend (19/03 – 05/04)
+Tạo project ASP.NET Core MVC
+Kết nối database bằng Entity Framework
+Xây dựng Model – Controller
+Làm các chức năng:
+CRUD sản phẩm
+Đăng nhập / đăng ký
 
-Bước 4: Tạo Database
-Mở Visual Studio
-Vào Tools → NuGet Package Manager → Package Manager Console
+# 3. Giai đoạn 3: Xây dựng frontend (06/04 – 15/04)
+Thiết kế giao diện bằng HTML, CSS, Bootstrap
+Hiển thị:
+Danh sách sản phẩm
+Chi tiết sản phẩm
+Kết nối dữ liệu từ backend
 
-Bước 5: Chạy chương trình
-Mở file .sln
-Nhấn F5 hoặc Ctrl + F5 để chạy
-
-Bước 6: Truy cập hệ thống
-Sau khi chạy chương trình thành công, truy cập trình duyệt tại:
-
-http://localhost:1997
-
-Người dùng có thể:
-- Xem sản phẩm
-- Thêm vào giỏ hàng
-- Đặt hàng
-- Quản lý hệ thống (Admin)
+# 4. Giai đoạn 4: Hoàn thiện & kiểm thử (16/04 – 26/04)
+Làm giỏ hàng, đặt hàng
+Test hệ thống
+Sửa lỗi
+Hoàn thiện giao diện
+Chuẩn bị báo cáo & demo
